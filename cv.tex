@@ -79,12 +79,13 @@
 
 %CV Sections inspired by: 
 %http://stefano.italians.nl/archives/26
-\titleformat{\section}{\Large\scshape\raggedright}{}{0em}{}[\titlerule]
+\titleformat{\section}{\Large\scshape\raggedright\color{sectioncolor}}{}{0em}{}[\titlerule]
 \titlespacing{\section}{0pt}{8pt}{6pt}
 
 %Setup hyperref package, and colours for links
 \usepackage[unicode, draft=false]{hyperref}
 \definecolor{linkcolour}{rgb}{0,0.2,0.6}
+\definecolor{sectioncolor}{rgb}{0,0.2,0.6}
 \hypersetup{colorlinks,breaklinks,urlcolor=linkcolour,linkcolor=linkcolour}
 
 %for social icons
@@ -153,7 +154,7 @@
 \item Automatisation des processus DevOps
 \end{joblong}
 
-\begin{joblong}{Technicien Systèmes et Réseaux - Magnetto Automotive France}{2022 - 2023}
+\begin{joblong}{Technicien Systèmes et Réseaux - Magnetto Automotive, Aulnay-sous-Bois}{2022 - 2023}
 \item Support technique niveau 1-2, gestion Active Directory et maintenance réseau
 \item Câblage infrastructure, interventions matérielles et documentation procédures
 \end{joblong}
@@ -166,12 +167,12 @@ Diagnostics et résolutions de problèmes relatifs aux ordinateurs de bureaux, p
 \section{Projets Techniques}
 
 \begin{tabularx}{\linewidth}{ @{}l r@{} }
-\textbf{Infrastructure DevOps sécurisée} & \hfill \href{https://github.com/Rahman-git7}{GitHub} \\[3.75pt]
-\multicolumn{2}{@{}X@{}}{Conception et déploiement d'une infrastructure cloud Azure automatisée avec Terraform, Ansible, Kubernetes (AKS), pipeline CI/CD, stack Grafana pour une entreprise de santé}  \\
+\textbf{Infrastructure DevOps sécurisée} & \hfill \href{https://drive.google.com/file/d/1PlXLjoWP856V7C8GVAYSbwkYGu0XzBrk/view}{Doc} \\[3.75pt]
+\multicolumn{2}{@{}X@{}}{Conception et déploiement d'une infrastructure cloud Azure automatisée avec Terraform, Ansible, Kubernetes (AKS), pipeline CI/CD, stack Grafana pour une entreprise de santé (50+ centres)}  \\
 \end{tabularx}
 
 \begin{tabularx}{\linewidth}{ @{}l r@{} }
-\textbf{API REST sécurisée en Go} & \hfill \href{https://github.com/Rahman-git7}{GitHub} \\[3.75pt]
+\textbf{API REST sécurisée en Go} & \hfill \href{https://gitlab.com/Rahman-S/api-certificats}{GitLab} \\[3.75pt]
 \multicolumn{2}{@{}X@{}}{Développement d'une API de gestion de certificats avec Gin/PocketBase, authentification JWT et déploiement automatisé via GitLab CI/CD sur AWS ECS}  \\
 \end{tabularx}
 
@@ -182,7 +183,6 @@ Diagnostics et résolutions de problèmes relatifs aux ordinateurs de bureaux, p
 \begin{tabularx}{\linewidth}{@{}l X@{}}	
 2023 - 2025 & Master DevOps \& Cloud - \textbf{SUP DE VINCI}, Paris \\
 2022 - 2023 & Bachelor Systèmes, Réseaux \& Cloud - \textbf{SUP DE VINCI}, Paris \\ 
-2020 - 2022 & BTS SIO (SISR) - \textbf{ITIS}, Evry \\
 \end{tabularx}
 
 %----------------------------------------------------------------------------------------
@@ -190,11 +190,11 @@ Diagnostics et résolutions de problèmes relatifs aux ordinateurs de bureaux, p
 %----------------------------------------------------------------------------------------
 \section{Stack Technique}
 \begin{tabularx}{\linewidth}{@{}l X@{}}
-Conteneurisation \& Orchestration & Docker, Kubernetes \\
-Cloud \& Infrastructure as Code & Azure, AWS, Terraform, Ansible \\
-CI/CD & GitLab CI/CD, GitHub Actions, Argo CD \\
-Monitoring \& Observabilité & Grafana, Prometheus, Loki \\
-Systèmes, Réseau, Scripting & Linux, SSH, VPC, Python, YAML \\
+Conteneurisation \& Orchestration : & Docker, Kubernetes \\
+Cloud \& Infrastructure as Code : & Azure, AWS, Terraform, Ansible \\
+CI/CD : & GitLab CI/CD, GitHub Actions, Argo CD \\
+Monitoring \& Observabilité : & Grafana, Prometheus, Loki \\
+Systèmes, Réseau, Scripting : & Linux, SSH, VPC, Python, YAML \\
 \end{tabularx}
 
 \section{Compétences}
@@ -206,7 +206,7 @@ Langues & Français (Langue maternelle), Anglais (Professionnel - B2) \\
 
 \section{Certifications}
 \begin{tabularx}{\linewidth}{@{}l X@{}}
-\raisebox{-0.05\height}\faCloud\ AWS & Solutions Architect Associate \\
+{\color{sectioncolor}\raisebox{-0.05\height}\faCloud}\ AWS & \textbf{Solutions Architect Associate} \\
 \end{tabularx}
 
 \vfill
